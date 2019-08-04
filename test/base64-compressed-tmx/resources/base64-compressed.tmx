@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="2019.05.08" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" source="base64-compressed.tsx"/>
+ <layer id="1" name="Ground" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmGsLgjAUhld+6CJkF8guVJRd7Kb+/1/XkTaUw5jbdGvBhAcVpj6+O+pBQqplb4AJEAFTQ+dvQ8bxOzjg9S/5lVktgRhYOeDDowf0gQB5m7jWGtgosAVGwBgILWRxBE4KJAb9UoHfGXgAlx/6ifJLJPO04Xd10K9AXtjvRb71/7bsh2sO7zflheuyCz/ec5Ci/Nh2kx/Otav8bmif+ajmZ3p+sSfmTudPlmcHfgPKkFTfIhGB5DjGrqVfRKr+gt2riFByHO84Hb+YVP3FDJg3sJAcxzvOZO39Al6fI+NJLDrq5Kbjp9Ob6d6Til9G1zLvzvr3J1G4RhfI+JVOBR1r0y930A/XtWt+OvNb7y9s+eUKfjhL1/LjzbXLfjbz0+nNbPp5PK79G/R4PO34AHuNtxE=
+  </data>
+ </layer>
+ <layer id="2" name="blocking" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjEKACAQA0Gfkv+/0l6LAwsPdAa2SpMxAIAfZAmAt6SoW7oPFHK43ZIiAAB2E6/gAuE=
+  </data>
+ </layer>
+</map>

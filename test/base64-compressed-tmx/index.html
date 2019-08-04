@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>parse tmx</title>
+</head>
+<body>
+	<script type="text/javascript" src="../../src/base64-compressed-tmx/assets/inflate.min.js"></script>
+	<script type="text/javascript" src="../../src/tmx-parser.js"></script>
+	<script type="text/javascript" src="../../src/base64-compressed-tmx/base64-compressed-tmx-parser.js"></script>
+	<script type="text/javascript" src="./resources/js/draw.js"></script>
+
+	<script type="text/javascript">				
+		window.onload = async function() {
+			let parser = new Base64CompressedTMXParser();
+			let map = await parser.parse('./resources/base64-compressed.tmx');							
+			draw(map);
+		};	
+	</script>
+</body>
+</html>

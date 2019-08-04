@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>parse tmx</title>
+</head>
+<body>
+	<script type="text/javascript" src="../../src/tmx-parser.js"></script>
+	<script type="text/javascript" src="../../src/csv-tmx/csv-tmx-parser.js"></script>
+	<script type="text/javascript" src="./resources/js/draw.js"></script>
+
+	<script type="text/javascript">				
+		window.onload = async function() {
+			let parser = new CSVTMXParser();
+			let map = await parser.parse('./resources/csv.tmx');							
+			draw(map);
+		};	
+	</script>
+</body>
+</html>
